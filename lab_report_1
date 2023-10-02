@@ -1,0 +1,8 @@
+-cd (no argument) - the working directory was the the main class, in the is case was lecture 1. I'm assuming why I got this output, being sent to the beginning of the file, it
+seems it wants to read or change to a directory, but when it has no  argument it changed to the first instance of the file which was *lecture_1*. This is not an error, as it 
+doesn't consist of an error message
+
+-cd (directory arguement) : the working directories were the directories that were given such as lecture 1 and messages. For this instance, it change directories to those howover
+when I tried to *cd* to a text file it gave me an error as it was *not a directory*. To *cd* to a directory it does work. 
+
+-cd (file argument) : the working directories were lecture 1 and messages. When I cd to a file the only err

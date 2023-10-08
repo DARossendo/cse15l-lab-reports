@@ -15,12 +15,16 @@ doesn't consist of an error message
 
 **-cd (directory argument)**
 
+![image](cddirect.png)
+
 ...
 - the working directories were the directories that were given such as lecture 1 and messages. For this instance, it changed directories to those. However,
 when I tried to *cd* to a text file it gave me an error as it was *not a directory*. To *cd* to a directory it does work. 
 ...
 
 **-cd (file argument)**
+
+![image](catfile.png)
 
 ...
 - The working directories were * lecture 1 * and * messages *. When I cd to a file within the *lecture 1* directory, I received an error stating that such a directory
@@ -32,6 +36,9 @@ with.
 ---
 
 **-ls (no argument)**
+
+![image](lsempty.png)
+
 ...
 - The working directories were home and its content. When I ls without an argument, it displays my current directory. For example when I was at /home/ it displayed
 *lecture 1* and when I cd into the directory and then *ls* I got the content in the directory. This shows no errors and does not provide any errors.
@@ -39,12 +46,16 @@ with.
 
 **-ls (directory argument)**
 
+![image](lsdirect.png)
+
 ...
 - The working directory was /home/lecture_1. For this if I *ls* to a specific directory it will give the content of that directory regardless of my location. I was able to
 *ls* from /home/lecture1 with ease into other directories and get its content just fine with no errors.
 ...
 
 **-ls (file argument)**
+
+![image](lsfile.png)
 
 ...
 - The working directory was /home/lecture1/messages. For this, I *ls* a random file within the directory which didn't return the directory, but the name of the file.
@@ -56,6 +67,8 @@ I believe this is not an error as I believe *ls* gives information of descriptor
 
 **-cat (no argument)**
 
+![image](catempty.png)
+
 ...
 - Working directories was /home/. Without an argument, *cat* simply seems to double anything that was typed and entered. For example, when I typed cleared the system
 simply repeated the same values. I believe this is not an error as it might be used to test code.
@@ -63,11 +76,15 @@ simply repeated the same values. I believe this is not an error as it might be u
 
 **-cat (directory argument)**
 
+![image](catdirect.png)
+
 ...
 - Working directories were /home/lecture1. With a directory argument, it simply prints out the name of the directory and states that is a directory. 
 ...
 
 **-cat (file argument)**
+
+![image](catfile.png)
 
 ...
 - Working directories /home/lecture1. When I *cat* to a file, it simply prints out the contents in a file. Such as when *cat* to specific text files within messages

@@ -2,7 +2,10 @@
 
 # CD
 ---
+
 **-cd (no argument)**
+
+![image](cdempty.png)
 
 ...
 - the working directory was the the main class, in the is case was lecture 1. I'm assuming why I got this output, being sent to the beginning of the file, it

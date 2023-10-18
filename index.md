@@ -79,6 +79,5 @@ with.
 ![image](catfile.png)
 
 ...
-- Working directories /home/lecture1/messages. When I *cat* to a file, it simply prints out the contents in a file. Such as when *cat* to specific text files within messages
-it displays its content.
+- Working directories /home/lecture1/messages. When I *cat* to a file, it simply prints out the contents in a file. Such as when *cat* to specific text files within messages it displays its content. This is not an error from what I gathered.
 ...

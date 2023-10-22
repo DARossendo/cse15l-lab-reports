@@ -9,10 +9,16 @@ int the code.
 >*url* which represents the request that is being given by a user. Relevant values of those methods, in *HandleRequest* are *url.getPath().equals("/")* and
 > >*url.getQuery().split("=");*, *url.getPath().equals("/add-message")* and *(parameters[0].equals("s"))*. These take in code that would process
 > it to the server.
-> I believe the values that changed were *ArrayList<String> messages = new ArrayList<>();* which would continuously add phrases every time the URL is changed, and *int >num* which increases the value as the number of phrases is added. 
+> I believe the values that changed were *ArrayList<String> messages = new ArrayList<>();* which would continuously add phrases every time the URL is changed, and *int >num* which increases the value as the number of phrases is added.
+
 ![image](scre2.png)
 >For this second screenshot, consists of the same methods which are *HandleRequest* and *public static void main(String[] args) throws >IOException* which are >called from their specific classes. The relevant arguments are  still the same *ArrayList<String> messages = new ArrayList<>();* and *URI*. as well as the same
 > values such as *url.getPath().equals("/")* and *url.getQuery().split("=");*, *url.getPath().equals("/add-message")* and *(parameters[0].equals("s"))*.
 > The same proper values are called *ArrayList<String> messages = new ArrayList<>();* and *int >num*. are called.
 
 # Part 2
+![image](publickeymayb1.png)
+
+![image](gayyyyyyy.png)
+
+![image](login.png)

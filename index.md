@@ -22,3 +22,7 @@ int the code.
 ![image](gayyyyyyy.png)
 
 ![image](login.png)
+
+# Part 3
+From week three I learned the whole process of creating an SSH key, which is basically a safe connection between unsafe, remote systems. Furthermore,
+understanding using mkdir, scp, and man, was useful and was something I didn't previously know.

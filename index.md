@@ -59,4 +59,27 @@ For this piece of code, I added the `(arr.length / 2)` and `int placeHolder = ar
 # Part 2: `find` command
 ---
 
-`find /path/ -type f` command
+1. `find /path/ -type f` or `-type d` command
+   
+   For `find /path -type f`
+```
+   $ find technical/government/About_LSC/ -type f
+technical/government/About_LSC/Comments_on_semiannual.txt
+technical/government/About_LSC/commission_report.txt
+technical/government/About_LSC/conference_highlights.txt
+technical/government/About_LSC/CONFIG_STANDARDS.txt
+technical/government/About_LSC/diversity_priorities.txt
+technical/government/About_LSC/LegalServCorp_v_VelazquezDissent.txt
+technical/government/About_LSC/LegalServCorp_v_VelazquezOpinion.txt
+technical/government/About_LSC/LegalServCorp_v_VelazquezSyllabus.txt
+technical/government/About_LSC/ODonnell_et_al_v_LSCdecision.txt
+technical/government/About_LSC/ONTARIO_LEGAL_AID_SERIES.txt
+technical/government/About_LSC/Progress_report.txt
+technical/government/About_LSC/Protocol_Regarding_Access.txt
+technical/government/About_LSC/reporting_system.txt
+technical/government/About_LSC/Special_report_to_congress.txt
+technical/government/About_LSC/State_Planning_Report.txt
+technical/government/About_LSC/State_Planning_Special_Report.txt
+technical/government/About_LSC/Strategic_report.txt
+   
+```

@@ -51,4 +51,6 @@ static void reverseInPlace(int[] arr) {
       arr[arr.length - i - 1] = placeHolder;
     }
 }
+
 ```
+For this piece of code I added the `(arr.length / 2)` and `int placeHolder = arr[i];` as well as `arr[arr.length - i - 1] = placeHolder;`. `(arr.length / 2)` this is to ensure that the iteretated value fall properly ib their place; continuing to iterate the value it would just take you to the original input from `@Test`. Creatting a holding variable such that it holds or take into memory the array and storing that information into that same array. 

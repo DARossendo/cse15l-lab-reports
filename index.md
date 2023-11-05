@@ -17,9 +17,7 @@ int the code.
 > The same proper values are called `ArrayList<String> messages = new ArrayList<>();` and `int >num`. are called.
 
 # Part 2
-![image](publickeymayb1.png)
-
-![image](gayyyyyyy.png)
+![image](fuck.png)
 
 ![image](login.png)
 

@@ -1,5 +1,5 @@
 
-#Part 1
+# Part 1
 ---
 This is from the `ArrayExamples.java` java file and under the method `static void reverseInPlace(int[] arr)`
 

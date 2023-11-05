@@ -25,10 +25,10 @@ public void testReverseInPlace() {
 ```
 
 **The symptom**
-```
-![Image](http://url/a.png)
-![Image](http://url/a.png)
-```
+
+![Image](failtest.png)
+![Image](passestest.png)
+
 
 **The bug**
 

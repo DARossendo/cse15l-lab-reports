@@ -18,6 +18,7 @@ int the code.
 
 # Part 2
 ![image](fuck.png)
+I am not sure how to call for my public/private key. The instructions are a bit vague.
 
 ![image](login.png)
 

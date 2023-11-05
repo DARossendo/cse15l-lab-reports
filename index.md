@@ -104,8 +104,50 @@ technical/plos
 
 source: https://www.znetlive.com/blog/how-to-use-linux-find-command-to-search-for-files/#:~:text=Whether%20you%20need%20to%20locate,tools%20to%20accomplish%20these%20tasks.&text=Here%2C%20the%20%2Dtype%20f%20option,or%20other%20types%20of%20files.
 ```
-2. `find /path -type f -mtime -N` or `-type d`
+2. `find /path/ -size +M` or `-type d`
+
+For `find /path/ -size +M`
 
 ```
+find technical/government/Env_Prot_Agen/  -size +100k
+technical/government/Env_Prot_Agen/bill.txt
+technical/government/Env_Prot_Agen/ctm4-10.txt
+technical/government/Env_Prot_Agen/multi102902.txt
+technical/government/Env_Prot_Agen/tech_adden.txt
+
+source: https://www.znetlive.com/blog/how-to-use-linux-find-command-to-search-for-files/#:~:text=Whether%20you%20need%20to%20locate,tools%20to%20accomplish%20these%20tasks.&text=Here%2C%20the%20%2Dtype%20f%20option,or%20other%20types%20of%20files.
+```
+
+For ` find /path/ -type d -size +M`
 
 ```
+find technical/ -type d -size -30M
+technical/
+technical/911report
+technical/biomed
+technical/government
+technical/government/About_LSC
+technical/government/Alcohol_Problems
+technical/government/Env_Prot_Agen
+technical/government/Gen_Account_Office
+technical/government/Media
+technical/government/Post_Rate_Comm
+technical/plos
+
+source: https://www.znetlive.com/blog/how-to-use-linux-find-command-to-search-for-files/#:~:text=Whether%20you%20need%20to%20locate,tools%20to%20accomplish%20these%20tasks.&text=Here%2C%20the%20%2Dtype%20f%20option,or%20other%20types%20of%20files.
+```
+
+3. `find /path -name "[filename.txt]" -exec [command] {} [extra info];` or `find /path -type d -name "[directory_name]" -exec [command] -r {} [extra info];`
+
+
+
+
+
+
+
+
+
+
+
+
+[]

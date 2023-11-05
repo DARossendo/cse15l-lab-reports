@@ -57,4 +57,6 @@ For this piece of code I added the `(arr.length / 2)` and `int placeHolder = arr
 
 
 # Part 2
+---
+
 

@@ -31,6 +31,7 @@ public void testReverseInPlace() {
 ```
 
 **The bug**
+
 Before:
 ```
 static void reverseInPlace(int[] arr) {
@@ -40,7 +41,8 @@ static void reverseInPlace(int[] arr) {
 }
 ```
 
-After
+
+After:
 ```
 static void reverseInPlace(int[] arr) {
     for(int i = 0; i < (arr.length / 2); i += 1) {

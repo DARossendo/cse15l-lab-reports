@@ -56,7 +56,7 @@ static void reverseInPlace(int[] arr) {
 For this piece of code, I added the `(arr.length / 2)` and `int placeHolder = arr[i];` as well as `arr[arr.length - i - 1] = placeHolder;`. `(arr.length / 2)` is to ensure that the iterated value falls properly in its place; continuing to iterate the value would just take you to the original input from `@Test`. Creating a holding variable such that it holds or takes into memory the array and storing that information in that same array. 
 
 
-# Part 2: `find` command
+# Part 2: `find` Command
 ---
 
 1. `find /path/ -type f` or `-type d` command
@@ -103,4 +103,9 @@ technical/government/Post_Rate_Comm
 technical/plos
 
 source: https://www.znetlive.com/blog/how-to-use-linux-find-command-to-search-for-files/#:~:text=Whether%20you%20need%20to%20locate,tools%20to%20accomplish%20these%20tasks.&text=Here%2C%20the%20%2Dtype%20f%20option,or%20other%20types%20of%20files.
+```
+2. `find /path -type f -mtime -N` or `-type d`
+
+```
+
 ```

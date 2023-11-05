@@ -14,6 +14,7 @@ public void testReverseInPlace() {
 }
 ```
 
+**An input that doesn’t induce a failure**
 ```
 @Test 
 public void testReverseInPlace() {
@@ -22,3 +23,5 @@ public void testReverseInPlace() {
     assertArrayEquals(new int[]{ 9 }, input1);
 }
 ```
+
+

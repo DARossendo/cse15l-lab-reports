@@ -62,6 +62,7 @@ For this piece of code, I added the `(arr.length / 2)` and `int placeHolder = ar
 1. `find /path/ -type f` or `-type d` command
    
    For `find /path -type f`
+   
 ```
    $ find technical/government/About_LSC/ -type f
 technical/government/About_LSC/Comments_on_semiannual.txt
@@ -81,5 +82,8 @@ technical/government/About_LSC/Special_report_to_congress.txt
 technical/government/About_LSC/State_Planning_Report.txt
 technical/government/About_LSC/State_Planning_Special_Report.txt
 technical/government/About_LSC/Strategic_report.txt
-   
+
+source: https://www.znetlive.com/blog/how-to-use-linux-find-command-to-search-for-files/#:~:text=Whether%20you%20need%20to%20locate,tools%20to%20accomplish%20these%20tasks.&text=Here%2C%20the%20%2Dtype%20f%20option,or%20other%20types%20of%20files.
+
 ```
+    For

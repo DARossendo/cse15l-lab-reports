@@ -104,6 +104,9 @@ technical/plos
 
 source: https://www.znetlive.com/blog/how-to-use-linux-find-command-to-search-for-files/#:~:text=Whether%20you%20need%20to%20locate,tools%20to%20accomplish%20these%20tasks.&text=Here%2C%20the%20%2Dtype%20f%20option,or%20other%20types%20of%20files.
 ```
+
+This type of find essentially takes the .txt files from the directory or the directories within the directories and prints its content depending on `-type f` or `=type d`. This is useful for when we want to find only files or only want directories.
+
 2. `find /path/ -size +M` or `-type d`
 
 For `find /path/ -size +M`
@@ -137,7 +140,70 @@ technical/plos
 source: https://www.znetlive.com/blog/how-to-use-linux-find-command-to-search-for-files/#:~:text=Whether%20you%20need%20to%20locate,tools%20to%20accomplish%20these%20tasks.&text=Here%2C%20the%20%2Dtype%20f%20option,or%20other%20types%20of%20files.
 ```
 
-3. `find /path -name "[filename.txt]" -exec [command] {} [extra info];` or `find /path -type d -name "[directory_name]" -exec [command] -r {} [extra info];`
+This command essentially considers all the files with `-type f` or `-type d`, checks the sizes ranging from bytes to megabytes and prints when given the parameters. This is useful when we want to detect directories of files that consist of too much space.
+
+3. `find /path -name "[filename.txt]" -exec [command] {} [extra info];` or `find /path -type d -name "[directory_name]" -exec [command] {} [extra info];`
+
+For `find /path -name "[filename.txt]" -exec [command] {} [extra info];`
+```
+find technical/911report/ -name "chapter-1.txt" -exec cp {} backup/ \;
+
+Source: https://www.geeksforgeeks.org/exec-command-in-linux-with-examples/#
+Source: https://www.baeldung.com/linux/find-exec-command
+
+```
+
+For `find /path -type d -name "[directory name]" -exec [command] {} [extra info];`
+
+```
+find technical/ -type d -name "biomed" -exec cp -r {} test2 \;
+
+Source: https://www.geeksforgeeks.org/exec-command-in-linux-with-examples/#
+Source: https://www.baeldung.com/linux/find-exec-command
+```
+
+This command essentially gives a path with either name being the file or directory and gives an `-exec` executable command to perform with any given parameters; here I use cp to copy files. This command is useful when we want to perform one-line executables.
+
+4. `find /path -maxdepth 1 -type f` or `-type d`
+
+For `find /path -maxdepth 1 -type f`
+
+```
+$ find technical/911report/ -maxdepth 1 -type f
+technical/911report/chapter-1.txt
+technical/911report/chapter-10.txt
+technical/911report/chapter-11.txt
+technical/911report/chapter-12.txt
+technical/911report/chapter-13.1.txt
+technical/911report/chapter-13.2.txt
+technical/911report/chapter-13.3.txt
+technical/911report/chapter-13.4.txt
+technical/911report/chapter-13.5.txt
+technical/911report/chapter-2.txt
+technical/911report/chapter-3.txt
+technical/911report/chapter-5.txt
+technical/911report/chapter-6.txt
+technical/911report/chapter-7.txt
+technical/911report/chapter-8.txt
+technical/911report/chapter-9.txt
+technical/911report/preface.txt
+
+source: https://www.geeksforgeeks.org/mindepth-maxdepth-linux-find-command-limiting-search-specific-directory/
+```
+
+For `find /path -maxdepth 1 -type d`
+
+```
+$ find technical/ -maxdepth 1 -type d
+technical/
+technical/911report
+technical/biomed
+technical/government
+technical/plos
+
+source: https://www.geeksforgeeks.org/mindepth-maxdepth-linux-find-command-limiting-search-specific-directory/
+```
+The `-maxdepth 1` command allows restricting to the immediate directory without branching to other directories. It's useful when it comes to specifying how far must you go to find files and directories. 
 
 
 
@@ -150,4 +216,3 @@ source: https://www.znetlive.com/blog/how-to-use-linux-find-command-to-search-fo
 
 
 
-[]

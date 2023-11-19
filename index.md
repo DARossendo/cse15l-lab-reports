@@ -36,7 +36,8 @@ Checked for appropriate files and ran the tests as stated.
 
 
 `ls` to check any additional changes made, type `vim ListExamples.java`,
-after I enter vim mode, and from the beginning of the code I press the `<down> key` 43 times, from there I press the `<right> key` 12 times, then press the `i key` once, then I press the `<backspace> key` once,
+after I enter vim mode, and from the beginning of the code I press the `<down> key` 43 times,
+from there I press the `<right> key` 12 times, then press the `i key` once, then I press the `<backspace> key` once,
 then I pressed the `2 key` once, pressed the `ESC key` once, then typed `<:wq>`
  then press the `<Enter> key` once.  
 ```
@@ -49,6 +50,7 @@ entering `insert` mode, changing the bug code to the correct one, saving the fil
 
 
 From the terminal type `bash test.sh`
+
 ```
 Re-runs the tests after the corrected code.
 ```
@@ -58,6 +60,7 @@ Re-runs the tests after the corrected code.
 
 
 Type `git add ListExamples.java`, press <Enter> key, then type `git commit -m "Done and loaded"`, press <Enter> key (In this case this is my message). then finally typed  `git push` and press <Enter> key 
+
 ```
 Commit and push the saved file into GitHub.
 ```

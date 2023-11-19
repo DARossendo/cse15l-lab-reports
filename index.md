@@ -7,6 +7,7 @@
 < control > + < C>: ssh cs15lfa23bi@ieng6.ucsd.edu, press <Enter> key, <control> + <v>
 into the terminal, press the <Enter> key
 ```
+
 Basically, I logged into my ieg6 account.
 
 ![Image](step5.png)
@@ -15,8 +16,8 @@ Basically, I logged into my ieg6 account.
 ```
 <control> + <c>: git@github.com:DARossendo/lab7.git, press <Enter> key,
 <control> + <v> into the terminal and press <Enter> key
-
 ```
+
 Downloads and clones the information from the fork from the SSH clone.
 
 ![Image](step6.png)
@@ -25,8 +26,8 @@ Downloads and clones the information from the fork from the SSH clone.
 ```
 `ls` into the terminal, see the directory, `cd` into `lab7/`, and `ls`
 again to see if I had all the appropriate files, in the terminal I typed `bash test.sh`
-
 ```
+
 Checked for appropriate files and ran the tests as stated.
 
 ![Image](step7a.png)
@@ -39,6 +40,7 @@ from there I press the `<right> key` 12 times, then press the `i key` once, then
 then I pressed the `2 key` once, pressed the `ESC key` once, then typed `<:wq>`
  then press the `<Enter> key` once.  
 ```
+
 The steps necessary to change the java file: entering vim, scrolling where the issue was, 
 entering `insert` mode, changing the bug code to the correct one, saving the file, and finally exiting out of vim mode.
 
@@ -47,8 +49,8 @@ entering `insert` mode, changing the bug code to the correct one, saving the fil
 
 ```
 From the terminal type `bash test.sh`
-
 ```
+
 Re-runs the tests after the corrected code.
 
 ![Image](step9final.png)
@@ -57,6 +59,6 @@ Re-runs the tests after the corrected code.
 ```
 Type `git add ListExamples.java`, press <Enter> key, then type `git commit -m "Done and loaded"`, 
 press <Enter> key (In this case this is my message). then finally typed  `git push` and press <Enter> key 
-
 ```
+
 Commit and push the saved file into GitHub.

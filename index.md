@@ -4,7 +4,7 @@
 ## Step 4 
 
 
-<control> + <C>: ssh cs15lfa23bi@ieng6.ucsd.edu, press <Enter> key, <control> + <v>
+< control > + <C>: ssh cs15lfa23bi@ieng6.ucsd.edu, press <Enter> key, <control> + <v>
 into the terminal, press the <Enter> key
 
 ```

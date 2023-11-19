@@ -23,5 +23,19 @@ Checked for appropriate files and ran the tests as stated.
 ## Step 7
 
 ```
-`ls` to check any additional changes made, type `vim listExamples.java`, after I enter vim mode, and from the beginning of the code I press the `<down> key` 43 times, from there I press the `<right> key` 12 times, the pressing the `i key` once, then I press the `<backspace> key` once, then I press the `2 key` once, pressed the `ESC key` once, then typed `<:wq>` then press the `<Enter> key` once.  
+`ls` to check any additional changes made, type `vim ListExamples.java`, after I enter vim mode, and from the beginning of the code I press the `<down> key` 43 times, from there I press the `<right> key` 12 times, the pressing the `i key` once, then I press the `<backspace> key` once, then I press the `2 key` once, pressed the `ESC key` once, then typed `<:wq>` then press the `<Enter> key` once.  
+```
+The steps necessary to change the java file: entering vim, scrolling where the issue was, entering `insert` mode, changing the bug code to the correct one, saving the file, and finally exiting out of vim mode.
+
+## Step 8
+
+```
+From the terminal type `bash test.sh`
+```
+Re-runs the tests after the corrected code.
+
+## Step 9
+
+```
+
 ```

@@ -1,4 +1,6 @@
 # Lab 7
+
+![Image](step4.png)
 ## Step 4 
 
 ```
@@ -6,6 +8,7 @@
 ```
 Basically, I logged into my ieg6 account.
 
+![Image](step5.png)
 ## Step 5
 
 ```
@@ -13,6 +16,7 @@ Basically, I logged into my ieg6 account.
 ```
 Downloads and clones the information from the fork from the SSH clone.
 
+![Image](step6.png)
 ## Step 6
 
 ```
@@ -20,6 +24,7 @@ Downloads and clones the information from the fork from the SSH clone.
 ```
 Checked for appropriate files and ran the tests as stated.
 
+![Image](step7a.png)
 ## Step 7
 
 ```
@@ -27,6 +32,7 @@ Checked for appropriate files and ran the tests as stated.
 ```
 The steps necessary to change the java file: entering vim, scrolling where the issue was, entering `insert` mode, changing the bug code to the correct one, saving the file, and finally exiting out of vim mode.
 
+![Image](step8.png)
 ## Step 8
 
 ```
@@ -34,6 +40,7 @@ From the terminal type `bash test.sh`
 ```
 Re-runs the tests after the corrected code.
 
+![Image](step9final.png)
 ## Step 9
 
 ```

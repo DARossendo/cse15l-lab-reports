@@ -2,14 +2,14 @@
 ## Step 4 
 
 ```
-<control> + <C>: ssh cs15lfa23bi@ieng6.ucsd.edu, <control> + <v> into the terminal 
+<control> + <C>: ssh cs15lfa23bi@ieng6.ucsd.edu, press <Enter> key, <control> + <v> into the terminal press <Enter> key
 ```
 Basically, I logged into my ieg6 account.
 
 ## Step 5
 
 ```
-<control> + <c>: git@github.com:DARossendo/lab7.git, <control> + <v> into the terminal
+<control> + <c>: git@github.com:DARossendo/lab7.git, press <Enter> key,  <control> + <v> into the terminal and press <Enter> key
 ```
 Downloads and clones the information from the fork from the SSH clone.
 
@@ -37,5 +37,6 @@ Re-runs the tests after the corrected code.
 ## Step 9
 
 ```
-
+Type `git add ListExamples.java`, press <Enter> key, then type `git commit -m "Done and loaded"`, press <Enter> key (In this case this is my message). then finally typed  `git push` and press <Enter> key 
 ```
+Commit and push the saved file into GitHub.
